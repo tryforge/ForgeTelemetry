@@ -23,6 +23,4 @@ const client = new ForgeClient({
   ...
   extensions: [new ForgeTelemetry()]
 })
-
-api.router.load("path")
 ```
