@@ -1,0 +1,36 @@
+{
+  "name": "@tryforge/forge.telemetry",
+  "version": "1.0.0",
+  "description": "Lightweight optional telemetry module for BotForge bots to report runtime stats, usage metrics, and environment details to a central monitoring API.",
+  "keywords": [
+    "ForgeScript",
+    "Forge",
+    "BotForge",
+    "Telemetry"
+  ],
+  "homepage": "https://github.com/tryforge/ForgeTelemetry#readme",
+  "bugs": {
+    "url": "https://github.com/tryforge/ForgeTelemetry/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tryforge/ForgeTelemetry.git"
+  },
+  "license": "GPL-3.0",
+  "author": "aggelos007",
+  "type": "commonjs",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "tsc && node dist/__tests__"
+  },
+  "devDependencies": {
+    "@tryforge/forgescript": "^2.3.0",
+    "@types/node": "^24.0.10",
+    "@types/pidusage": "^2.0.5",
+    "discord.js": "^14.21.0",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "pidusage": "^4.0.1"
+  }
+}
