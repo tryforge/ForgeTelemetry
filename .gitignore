@@ -1,4 +1,4 @@
 node_modules
 pnpm-lock.yaml
 */__tests__
-cooldown.js
+cooldown.json
